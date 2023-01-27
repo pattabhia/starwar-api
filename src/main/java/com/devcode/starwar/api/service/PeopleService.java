@@ -1,9 +1,7 @@
 package com.devcode.starwar.api.service;
 
-import com.devcode.starwar.api.domain.Film;
-import com.devcode.starwar.api.domain.People;
-import com.devcode.starwar.api.domain.PeopleResult;
-import org.springframework.beans.factory.annotation.Autowired;
+import com.devcode.starwar.api.models.People;
+import com.devcode.starwar.api.models.PeopleResult;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
@@ -14,8 +12,6 @@ public class PeopleService extends AbstractAPIService<People> {
     @Value("${star-war.api.url.people}")
     private String url;
 
-    @Autowired
-    private FilmService filmService;
 
     public People findCount() {
         return getWebClient()

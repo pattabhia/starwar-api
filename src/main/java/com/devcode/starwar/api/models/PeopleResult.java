@@ -1,4 +1,4 @@
-package com.devcode.starwar.api.domain;
+package com.devcode.starwar.api.models;
 
 import java.util.List;
 

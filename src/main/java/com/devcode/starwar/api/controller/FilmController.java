@@ -1,7 +1,7 @@
 package com.devcode.starwar.api.controller;
 
-import com.devcode.starwar.api.domain.Film;
-import com.devcode.starwar.api.domain.FilmResult;
+import com.devcode.starwar.api.models.Film;
+import com.devcode.starwar.api.models.FilmResult;
 import com.devcode.starwar.api.service.FilmService;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.http.ResponseEntity;

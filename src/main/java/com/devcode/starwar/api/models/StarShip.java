@@ -1,4 +1,4 @@
-package com.devcode.starwar.api.domain;
+package com.devcode.starwar.api.models;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
@@ -17,7 +17,7 @@ import java.util.List;
 })
 @Data
 @NoArgsConstructor
-public class Specie implements Domain {
+public class StarShip implements Domain {
 
     @JsonProperty("count")
     private Integer count;
@@ -26,6 +26,6 @@ public class Specie implements Domain {
     @JsonProperty("previous")
     private Object previous;
     @JsonProperty("results")
-    private List<SpecieResult> results;
+    private List<StarShipResult> results;
 
 }

@@ -1,6 +1,6 @@
 package com.devcode.starwar.api.service;
 
-import com.devcode.starwar.api.domain.Vehicle;
+import com.devcode.starwar.api.models.Vehicle;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 

@@ -1,7 +1,6 @@
 package com.devcode.starwar.api.service;
 
-import com.devcode.starwar.api.domain.People;
-import com.devcode.starwar.api.domain.Planet;
+import com.devcode.starwar.api.models.Planet;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 

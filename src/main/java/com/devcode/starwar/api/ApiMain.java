@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class StarwarApiApplication {
+public class ApiMain {
 
     public static void main(String[] args) {
-        SpringApplication.run(StarwarApiApplication.class, args);
+        SpringApplication.run(ApiMain.class, args);
     }
 
 }

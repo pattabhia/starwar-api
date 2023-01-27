@@ -1,6 +1,6 @@
 package com.devcode.starwar.api.controller;
 
-import com.devcode.starwar.api.domain.Domain;
+import com.devcode.starwar.api.models.Domain;
 import com.devcode.starwar.api.dto.TypeDTO;
 import com.devcode.starwar.api.enums.Types;
 import com.devcode.starwar.api.service.TypeService;

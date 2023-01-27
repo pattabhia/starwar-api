@@ -1,7 +1,7 @@
 package com.devcode.starwar.api.controller;
 
-import com.devcode.starwar.api.domain.People;
-import com.devcode.starwar.api.domain.PeopleResult;
+import com.devcode.starwar.api.models.People;
+import com.devcode.starwar.api.models.PeopleResult;
 import com.devcode.starwar.api.service.PeopleService;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.http.ResponseEntity;
