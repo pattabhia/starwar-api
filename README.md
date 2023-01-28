@@ -19,7 +19,10 @@ docker pull pamperay/starwar-api:latest
 
 ## Access Swagger-UI
 
-Run the docker image and access the link below.
+Pull & Run the docker image and access the application swagger link below.
+
+![image](https://user-images.githubusercontent.com/28252764/215258765-beb0a6a9-2ffc-4e0d-9ad7-d265695e6adb.png)
+
 
 ```
 http://localhost:8080/api/v1/swagger-ui.html
