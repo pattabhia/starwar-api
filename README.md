@@ -14,7 +14,7 @@ https://swapi.dev/
 ## Docker Image
 
 ```
-docker pull pamperay/starwar-api
+docker pull pamperay/starwar-api:latest
 ```
 
 ## Access Swagger-UI
