@@ -1,6 +1,6 @@
 # starwar-api
 
-This is a client interface for StarWar Apis
+A client service for StarWar Apis
 
 https://swapi.dev/
 
