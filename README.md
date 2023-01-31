@@ -2,6 +2,7 @@
 
 A client service for StarWar Apis
 
+
 https://swapi.dev/
 
 ![example workflow](https://github.com/pattabhia/starwar-api/actions/workflows/maven.yml/badge.svg)
